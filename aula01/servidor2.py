@@ -76,7 +76,7 @@ while True:
         response = RESPONSE_TEMPLATE.encode()
     client_connection.sendall(response)
     # response = 'HTTP/1.1 200 OK\n\nHello World'
-    client_connection.sendall(response)
+    # client_connection.sendall(response)
     client_connection.close()
 
 server_socket.close()    
